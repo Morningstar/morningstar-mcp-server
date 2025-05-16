@@ -1,5 +1,7 @@
 # Morningstar MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@Morningstar/morningstar-mcp-server)](https://smithery.ai/server/@Morningstar/morningstar-mcp-server)
+
 Morningstar MCP Server exposes the following Morningstar tools to be consumed using MCP.
 
 * Morningstar Datapoint Tool
@@ -15,3 +17,14 @@ Use this tool for getting answers for questions about finance, investing, sustai
 
 Reach out to Morningstar for Auth Token and dedicated endpoints for your account
 https://www.morningstar.com/business/brands/data-analytics/products/direct-web-services#contactus
+
+### Installing via Smithery
+
+To install Morningstar MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Morningstar/morningstar-mcp-server):
+
+```bash
+npx -y @smithery/cli install @Morningstar/morningstar-mcp-server --client claude
+```
+
+### Manual Installation
+See below.

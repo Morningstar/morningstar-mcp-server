@@ -1,0 +1,31 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - datapointToolUrl
+      - retrievalToolUrl
+    properties:
+      datapointToolUrl:
+        type: string
+        description: HTTP URL for Morningstar Datapoint Tool endpoint
+      retrievalToolUrl:
+        type: string
+        description: HTTP URL for Morningstar Articles (retrieval) Tool endpoint
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({
+      command: 'python',
+      args: ['src/server.py'],
+      env: {
+        DATAPOINT_TOOL_URL: config.datapointToolUrl,
+        RETRIEVAL_TOOL_URL: config.retrievalToolUrl
+      }
+    })
+  exampleConfig:
+    datapointToolUrl: https://api.morningstar.com/datapoint
+    retrievalToolUrl: https://api.morningstar.com/retrieval
