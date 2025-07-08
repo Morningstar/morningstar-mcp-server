@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/morningstar-morningstar-mcp-server-badge.png)](https://mseep.ai/app/morningstar-morningstar-mcp-server)
+
 # Morningstar MCP Server
 
 Morningstar MCP Server exposes the following Morningstar tools to be consumed using MCP.
