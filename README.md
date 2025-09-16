@@ -1,5 +1,7 @@
 # Morningstar MCP Server
 
+**This repo is currently archived and development on this MCP Server is being done outside this repo**
+
 Morningstar MCP Server exposes the following Morningstar tools to be consumed using MCP.
 
 * Morningstar Datapoint Tool
