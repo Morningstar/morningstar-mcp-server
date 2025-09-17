@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/morningstar-morningstar-mcp-server-badge.png)](https://mseep.ai/app/morningstar-morningstar-mcp-server)
+
 # Morningstar MCP Server
 
 **This repo is currently archived and development on this MCP Server is being done outside this repo**
